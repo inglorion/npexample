@@ -1,0 +1,24 @@
+Example NPAPI browser plugin.
+
+Prerequisites:
+
+* Some sane build environment. You will need a C compiler and Make.
+
+* You need to have the NPAPI header files in your C include path.
+  You can download them from https://github.com/isis-project/npapi-headers
+
+
+To build:
+
+* Run make. If all goes well, this will create a file named npexample.so.
+
+
+To install:
+
+* Put npexample.so in your browser's plugins directory, e.g. for Mozilla
+  browsers, cp npexample.so $HOME/.mozilla/plugins/
+
+
+To see it in action:
+
+* Open test.html in your web browser.
